@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import UserCard from "./userCard";
+import UserCard from "./UserCard";
 import { useUsers } from "../context/userContext";
 import { BeatLoader } from "react-spinners";
 
