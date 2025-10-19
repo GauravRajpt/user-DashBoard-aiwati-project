@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { useUsers } from "../context/userContext";
+import { useUsers } from "../context/UserContext";
 import { BeatLoader } from "react-spinners";
 
 const API_BASE = "https://jsonplaceholder.typicode.com";
