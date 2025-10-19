@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 import UserDetails from "./components/UserDetails";
-import { UserProvider } from "./context/userContext";
+import { UserProvider } from "./context/UserContext";
 
 export default function App() {
   return (
